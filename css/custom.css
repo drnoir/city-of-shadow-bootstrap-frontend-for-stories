@@ -1,0 +1,128 @@
+.fixed-bg {
+    /* The background image */
+   background-image: url("rainbg.gif");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height:100%;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+
+body{
+font-size:14px;
+}
+
+p{
+    padding:5px;
+    font-family: 'Monda', sans-serif;
+    color:black;
+    font-size:19px;
+}
+
+.redtext{
+color:red;
+}
+
+h1{
+     padding:5px;
+     color:#b1eb1e;
+     font-family: 'Oswald', sans-serif;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    color:#b1eb1e;;
+}
+
+h3 {
+    padding:5px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar-inverse {
+background-color:black;
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+color: white;
+font-size:20px;
+font-family: 'Oswald', sans-serif;
+}
+
+.footer{
+!important font-size:11px;
+}
+.jumbotron{
+background-color:#f4ecec;
+border-radius:2px;
+}
+
+.jumbotron p{
+font-size:18px;
+}
+
+.jumbotron h1{
+     color:#b1eb1e;
+}
+.thumb{
+float:right;
+height:300px;
+}
+
+.row_sep
+{
+
+background-color:#f4ecec;
+}
+
+.row{
+background-color:white;
+}
+
+.col-md-4
+    {
+color:black;
+background-color:#64b220;
+height:100%;
+    }
+
+.col-md-8{
+background-color:white;
+}
+
+.btn-primary{
+background-color:#148996;
+}
+
+.color-bg
+{
+background-color:#64b220;
+
+}
+
+.select{
+    background-color:#148996;
+    border-radius:4px;
+}
+
+.icons{
+ float:left;
+ margin-top:20px;
+ margin-right:15px;
+ color:white;
+}
+
+nav nav-pills a{
+color:white;
+
+}
+
+.right{
+float:right;
+}
